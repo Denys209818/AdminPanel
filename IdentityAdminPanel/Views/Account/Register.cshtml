@@ -1,0 +1,36 @@
+﻿@model RegisterViewModel
+
+<div class="container">
+    <form class="offset-3 col-6" asp-controller="Account" asp-action="Register" enctype="multipart/form-data" 
+          method="post">
+        <div class="mb-2">
+            <h2>Увійти в аккаунт</h2>
+            <a asp-action="Login" asp-controller="Account" class="text-center">Аккаунт вже існує</a>
+        </div>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Email"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Password"></label>
+            <input asp-for="Password" class="form-control" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <div class="input-group mt-2">
+            <input class="form-control" type="file" asp-for="Image" />
+            <label asp-for="Image" class="input-group-text"></label>
+        </div>
+
+        <div class="mt-2">
+            <input type="submit" class="btn btn-success px-2" value="Зареєструватися" />
+        </div>
+    </form>
+</div>

@@ -1,0 +1,27 @@
+﻿@if (!User.Identity.IsAuthenticated)
+{
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Account"
+           asp-action="Login">Вхід</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Account"
+           asp-action="Register">Реєстрація</a>
+    </li>
+}
+else
+{
+<li class="nav-item">
+    <a class="nav-link">
+        @await Component.InvokeAsync("Navbar")
+        </a>
+</li>
+    <li class="nav-item my-auto">
+        
+             @using (Html.BeginForm("Logout", "Account", FormMethod.Post, new { id = "logoutForm" }))
+             {
+                 <a class="nav-link text-dark" href="#"
+                    onclick="document.getElementById('logoutForm').submit()">Вихід <i class="fa fa-sign-out-alt"></i></a>
+             }
+    </li>
+}

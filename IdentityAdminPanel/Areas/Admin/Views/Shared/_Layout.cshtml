@@ -1,0 +1,34 @@
+﻿@using IdentityAdminPanel.Areas.Admin.Helpers
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/template/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/template/css/animate.css" />
+    <link rel="stylesheet" href="~/template/css/style.css" asp-append-version="true" />
+    <link href="~/lib/select2/css/select2.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper" class="@Html.PageClass()">
+
+        @await Html.PartialAsync("_Navigation")
+
+        <div id="page-wrapper" class="gray-bg @ViewBag.SpecialClass">
+            
+
+            <!-- Main view  -->
+            @RenderBody()
+            
+        </div>
+    </div>
+
+    <script src="~/template/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/template/lib/Popper/popper.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/template/lib/metisMenu/dist/jquery.metisMenu.js"></script>
+    <script src="~/template/lib/pace/pace.min.js"></script>
+    <script src="~/template/lib/slimScroll/jquery.slimscroll.min.js"></script>
+    <script src="~/template/js/script.js" asp-append-version="true"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

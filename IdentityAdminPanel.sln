@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityAdminPanel", "IdentityAdminPanel\IdentityAdminPanel.csproj", "{E18C3FB9-1DF3-4623-ADD2-7A91B9E98E88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityAdminPanel.Domain", "IdentityAdminPanel.Domain\IdentityAdminPanel.Domain.csproj", "{96470B1F-9F1F-4C0B-9021-2EBDE5278DD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E18C3FB9-1DF3-4623-ADD2-7A91B9E98E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18C3FB9-1DF3-4623-ADD2-7A91B9E98E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18C3FB9-1DF3-4623-ADD2-7A91B9E98E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18C3FB9-1DF3-4623-ADD2-7A91B9E98E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96470B1F-9F1F-4C0B-9021-2EBDE5278DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96470B1F-9F1F-4C0B-9021-2EBDE5278DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96470B1F-9F1F-4C0B-9021-2EBDE5278DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96470B1F-9F1F-4C0B-9021-2EBDE5278DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A14740A-ECC2-4849-AD4C-DA45DECFE2FE}
+	EndGlobalSection
+EndGlobal

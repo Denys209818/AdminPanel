@@ -1,0 +1,12 @@
+C:\Users\Denis\Desktop\ASP.NET Core MVC\HomeWorks\IdentityAdminPanel\IdentityAdminPanel.Domain\bin\Debug\netcoreapp3.1\IdentityAdminPanel.Domain.deps.json
+C:\Users\Denis\Desktop\ASP.NET Core MVC\HomeWorks\IdentityAdminPanel\IdentityAdminPanel.Domain\bin\Debug\netcoreapp3.1\IdentityAdminPanel.Domain.runtimeconfig.json
+C:\Users\Denis\Desktop\ASP.NET Core MVC\HomeWorks\IdentityAdminPanel\IdentityAdminPanel.Domain\bin\Debug\netcoreapp3.1\IdentityAdminPanel.Domain.runtimeconfig.dev.json
+C:\Users\Denis\Desktop\ASP.NET Core MVC\HomeWorks\IdentityAdminPanel\IdentityAdminPanel.Domain\bin\Debug\netcoreapp3.1\IdentityAdminPanel.Domain.dll
+C:\Users\Denis\Desktop\ASP.NET Core MVC\HomeWorks\IdentityAdminPanel\IdentityAdminPanel.Domain\bin\Debug\netcoreapp3.1\IdentityAdminPanel.Domain.pdb
+C:\Users\Denis\Desktop\ASP.NET Core MVC\HomeWorks\IdentityAdminPanel\IdentityAdminPanel.Domain\obj\Debug\netcoreapp3.1\IdentityAdminPanel.Domain.csprojAssemblyReference.cache
+C:\Users\Denis\Desktop\ASP.NET Core MVC\HomeWorks\IdentityAdminPanel\IdentityAdminPanel.Domain\obj\Debug\netcoreapp3.1\IdentityAdminPanel.Domain.AssemblyInfoInputs.cache
+C:\Users\Denis\Desktop\ASP.NET Core MVC\HomeWorks\IdentityAdminPanel\IdentityAdminPanel.Domain\obj\Debug\netcoreapp3.1\IdentityAdminPanel.Domain.AssemblyInfo.cs
+C:\Users\Denis\Desktop\ASP.NET Core MVC\HomeWorks\IdentityAdminPanel\IdentityAdminPanel.Domain\obj\Debug\netcoreapp3.1\IdentityAdminPanel.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Desktop\ASP.NET Core MVC\HomeWorks\IdentityAdminPanel\IdentityAdminPanel.Domain\obj\Debug\netcoreapp3.1\IdentityAdminPanel.Domain.dll
+C:\Users\Denis\Desktop\ASP.NET Core MVC\HomeWorks\IdentityAdminPanel\IdentityAdminPanel.Domain\obj\Debug\netcoreapp3.1\IdentityAdminPanel.Domain.pdb
+C:\Users\Denis\Desktop\ASP.NET Core MVC\HomeWorks\IdentityAdminPanel\IdentityAdminPanel.Domain\obj\Debug\netcoreapp3.1\IdentityAdminPanel.Domain.genruntimeconfig.cache
